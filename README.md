@@ -50,7 +50,7 @@ python demo_gradio.py
 python demo_viser.py --image_folder path/to/your/images/folder
 
 conda activate VGGT
-python demo_viser.py --image_folder dataset/tandt_train
+CUDA_VISIBLE_DEVICES=3  python demo_viser.py --image_folder dataset/tandt_train
 ```
 在vscode中运行应该就可以直接点击打开进去浏览器观看效果了~
 
@@ -65,7 +65,7 @@ python demo_viser.py --image_folder dataset/tandt_train
 </div>
 
 
-* 也可以采用在线的damo [Link](https://huggingface.co/spaces/facebook/vggt) 早说嘛，我就懒得配置了😂而且在线的UI也好不少~
+* 也可以采用在线的demo [Link](https://huggingface.co/spaces/facebook/vggt) 早说嘛，我就懒得配置了😂而且在线的UI也好不少~
 
 * 在[原readme](./README%20original.md)中也从代码角度介绍了每个模块大致怎么使用
 
