@@ -33,6 +33,10 @@ model = VGGT()
 _URL = "https://huggingface.co/facebook/VGGT-1B/resolve/main/model.pt"
 model.load_state_dict(torch.hub.load_state_dict_from_url(_URL))
 
+# # 改为导入下载的模型
+# _URL = "model.pt"
+# model.load_state_dict(_URL)
+
 
 model.eval()
 model = model.to(device)
