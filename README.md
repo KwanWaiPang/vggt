@@ -68,3 +68,5 @@ python demo_viser.py --image_folder dataset/tandt_train
 * 也可以采用在线的damo [Link](https://huggingface.co/spaces/facebook/vggt) 早说嘛，我就懒得配置了😂而且在线的UI也好不少~
 
 * 在[原readme](./README%20original.md)中也从代码角度介绍了每个模块大致怎么使用
+
+* 更多可视化效果请见[博客](kwanwaipang.github.io/VGGT/)
